@@ -1,23 +1,23 @@
 # backendProduct_haciendola
 Technical test proposed by Haciéndola
 
-# Project setup
+## Project setup
 npm install
 
-# Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 npm run dev
 
-# Name of proyect
+## Name of proyect
 Technical test
 
-# Documentation
+## Documentation
 https://documenter.getpostman.com/view/2103945/TzJx8wUQ
 
-# Create DataTable
+## Create DataTable
 Run script: ubication ./database.sql
 
-# Edit the connection to the typerom for MySQL
+## Edit the connection to the typerom for MySQL
 Ubication: ./ormconfig.json
 
-# Technologies
+## Technologies
 Nodejs, express, typescript, typeORM, bcrypt, jsonwebtoken

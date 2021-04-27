@@ -18,5 +18,5 @@ function main() {
         yield app.listen();
     });
 }
-main();
 typeorm_1.createConnection();
+main();

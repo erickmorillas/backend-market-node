@@ -6,14 +6,15 @@ function success(req, res, message, status) {
     res.status(statusCode).send({
         error: "",
         status: statusCode,
-        boyd: message
+        body: message
     });
 }
 exports.success = success;
 function error(req, res, message, status, detail) {
-    console.log(detail);
-    res.status(status || 500).send({
+    let statusCode = status || 400;
+    res.status(statusCode).send({
         error: message,
+        status: statusCode,
         body: "",
     });
 }

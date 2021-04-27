@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "nodemon api/index.ts --exec ts-node",
     "dev": "nodemon api/index.ts --exec ts-node"
   },
   "keywords": [],

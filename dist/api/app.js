@@ -37,7 +37,7 @@ class App {
     }
     routes() {
         this.app.use("/api/product", product_network_1.default);
-        this.app.use("/api/user", user_network_1.default);
+        this.app.use("/api/auth", user_network_1.default);
     }
     listen() {
         return __awaiter(this, void 0, void 0, function* () {
